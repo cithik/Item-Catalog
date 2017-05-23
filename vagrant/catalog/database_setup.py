@@ -28,6 +28,7 @@ class Category(Base):
         return {
             'name': self.name,
             'id': self.id,
+            'user_id': self.user_id
         }
 
 
